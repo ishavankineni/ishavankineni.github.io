@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+body{
+    /*background-color: rgb(228, 228, 228);*/
+	height:auto;
+	width:auto;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin:  50px ;
+    padding: 50px;
+	margin-top:0px;
+    background-color: /*aliceblue*/#52595D;
+	color:white;
+	height:auto;
+	width:auto;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    contain: content;
+	margin-left:50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.top .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+	
+}
+.top .info p{
+    line-height: 1.5;
+}
+h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+	height:auto;
+}
+
+.bottom .left{
+    width: 500pX;
+	margin-left: 40px;
+}
+.bottom .left p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/*****/
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin: 20px ;
+}
+
+ 
+
+.container .skill{
+    width :         200px;
+    height:         150px;
+    box-shadow:     3px 3px 4px lightgray;
+    cursor:          pointer;
+    transition:      ease-in 0.2s;
+    display:         flex;
+    flex-direction:  column;
+    text-align:      center;
+    align-items:     center;
+    justify-content: center;
+    border-radius:   20px;
+}
+
+.container .skill:hover{
+    box-shadow:       0px 0px 0px;
+    background-color: #acacac;
+}
+
+.container .skill i{
+    font-size:     40px;
+    margin-bottom: 10px;
+    color:        gray;
+    transition:    all ease-in 0.5s;
+}
+
+.container .skill:hover i{
+    color: black;
+}
+
+pre code{
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding:20px;
+  font-family: 'Courier New', monospace;
+  font-style:bold;
+  color:dark-grey;
+}
+#particles-js{
+  background: #52595D;
+  height:400px;
+  width:auto;
+}
+div#particles-js {
+    
+}
+
+html, body, div, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.nav {
+  margin:  20px ;
+  padding: 20px;
+  margin-top: 0px;
+  background: #52595D;
+  height: 60px; 
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px;
+  line-height: 60px; 
+  padding: 0 40px; 
+}
+
+.nav li:hover {
+  background: #acacac;
+  transition: background .3s;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size:30px;
+  font-style:bolder;
+}
+.left-menu {
+    grid-column: 1;
+  }
+
+  .logo {
+    grid-column: 2;
+  }
